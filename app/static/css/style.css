@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* #map,
+body,
+html {
+  height: 100%;
+} */
+
+#map_lsoa-container{
+  padding-top:120px;
+  padding-left:10px;
+}
+
+#map_lsoa {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 800px;  /* or as desired */
+  width: 100%;  /* This means "100% of the width of its container", the .col-md-8 */
+}
+
+
+#map_crime-container{
+  padding-top:120px;
+  padding-left:10px;
+}
+
+#map_crime {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 550px;  /* or as desired */
+  width: 100%;  /* This means "100% of the width of its container", the .col-md-8 */
+}
+
+
+#map_heat-container{
+  padding-top:120px;
+  padding-left:10px;
+}
+
+#map_heat {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 800px;  /* or as desired */
+  width: 100%;  /* This means "100% of the width of its container", the .col-md-8 */
+}
+
+.legend {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  display: inline-block;
+  border-radius: 25%;
+}
